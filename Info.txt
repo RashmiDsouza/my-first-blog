@@ -1,3 +1,7 @@
+Running the server from local command promt
+python manage.py runserver
+See how your website looks now: http://127.0.0.1:8000/
+
 myvenv\Scripts\activate
 python manage.py runserver
 control break to quit server
@@ -8,8 +12,10 @@ email -> venex.rashmi@gmail.com
 password -> rvd123@Venex
 
 PythonAnywhere Account (www.pythonanywhere.com)
-Url -> yourusername.pythonanywhere.com
+Url -> yourusername.pythonanywhere.com   
 RashmiDsouza.pythonanywhere.com
+https://rashmidsouza.pythonanywhere.com
+
 yourusername -> RashmiDsouza
 password -> rvd123@Venex
 pa_autoconfigure_django.py https://github.com/RashmiDsouza/my-first-blog.git
