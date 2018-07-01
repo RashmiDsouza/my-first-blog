@@ -7,6 +7,13 @@ username -> RashmiDsouza
 email -> venex.rashmi@gmail.com
 password -> rvd123@Venex
 
+PythonAnywhere Account (www.pythonanywhere.com)
+Url -> yourusername.pythonanywhere.com
+RashmiDsouza.pythonanywhere.com
+yourusername -> RashmiDsouza
+password -> rvd123@Venex
+pa_autoconfigure_django.py https://github.com/RashmiDsouza/my-first-blog.git
+
 https://github.com/RashmiDsouza/my-first-blog.git
 $ git remote add origin https://github.com/<your-github-username>/my-first-blog.git
 $ git push -u origin master
