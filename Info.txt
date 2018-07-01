@@ -2,6 +2,18 @@ myvenv\Scripts\activate
 python manage.py runserver
 control break to quit server
 
+github
+username -> RashmiDsouza
+email -> venex.rashmi@gmail.com
+password -> rvd123@Venex
+
+https://github.com/RashmiDsouza/my-first-blog.git
+$ git remote add origin https://github.com/<your-github-username>/my-first-blog.git
+$ git push -u origin master
+
+$ git remote add origin https://github.com/RashmiDsouza/my-first-blog.git
+$ git push -u origin master
+
 
 $ git init
 Initialized empty Git repository in ~/djangogirls/.git/
@@ -11,7 +23,32 @@ $ git config --global user.email you@example.com
 
 $ git init
 Initialized empty Git repository in ~/djangogirls/.git/
-$ git config --global user.rvd "rvd"
-$ git config --global user.venex_zz@yahoo.co.in rvd@example.com
+$ git config --global user.name "RashmiDsouza"
+$ git config --global user.email venex.rashmi@gmail.com
 
 
+command-line
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        blog/
+        manage.py
+        mysite/
+
+nothing added to commit but untracked files present (use "git add" to track)
+And finally we save our changes. Go to your console and run these commands:
+
+command-line
+$ git add --all .
+$ git commit -m "My Django Girls app, first commit"
+ [...]
+ 13 files changed, 200 insertions(+)
+ create mode 100644 .gitignore
+ [...]
+ create mode 100644 mysite/wsgi.py
